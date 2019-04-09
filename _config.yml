@@ -16,8 +16,8 @@
 email: wutiantian@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   吴甜甜的个人博客网站。欢迎发送邮件技术交流！
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "wutiantian.github.io" 
+url: "wutiantian.github.io" 
 title: 吴甜甜的个人博客
 github_username:  wutiantian
 host : 192.168.132.129 
