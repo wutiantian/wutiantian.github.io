@@ -20,6 +20,6 @@
 |github博客网址：wutiantian.github.io|码云博客网址：wutiantian52.gitee.io|个人邮箱wutiantian52@outlook.com|
 
 # 我的身份证照片  
-![引用图片](_images/photo.jpg)
+![引用图片](images/photo.jpg)
 
-![引用图片](_images/专利_一种客观题改卷筒（证书）扫描件.jpg)
+![引用图片](images/专利_一种客观题改卷筒（证书）扫描件.jpg)
