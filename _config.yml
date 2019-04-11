@@ -16,7 +16,8 @@
 email: wutiantian@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   吴甜甜的个人博客网站。欢迎发送邮件技术交流！
-baseurl: ""
+baseurl: "" 
+#注意此处最好为空引用，王顶老师提示我否则将导致网址的重叠。例如加了url一样的内容就会造成两遍重复url地址造成异常。
 url: "wutiantian.github.io" 
 title: 吴甜甜的个人博客
 github_username:  wutiantian
