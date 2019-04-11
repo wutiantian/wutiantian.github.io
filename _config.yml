@@ -16,7 +16,7 @@
 email: wutiantian@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   吴甜甜的个人博客网站。欢迎发送邮件技术交流！
-baseurl: "wutiantian.github.io" 
+baseurl: ""
 url: "wutiantian.github.io" 
 title: 吴甜甜的个人博客
 github_username:  wutiantian
