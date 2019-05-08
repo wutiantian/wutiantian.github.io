@@ -3,6 +3,9 @@ layout: post
 title: "搭建minima主题的github博客网站"
 date:   2019-04-20 19:20:20 +0800
 ---
+作者：吴甜甜  
+个人博客网站： wutiantian.github.io
+
 
 鸣谢：王顶 老师（河北经贸大学，github：wangding），该文章为网络课程教学素材。  
 我（吴甜甜）学习了王顶老师的github系列课程，并得到王顶老师网络指导多次。  
