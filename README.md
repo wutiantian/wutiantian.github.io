@@ -17,7 +17,7 @@
 |工作城市：深圳|工作领域：硬件方案设计与高速高密度pcb设计与仿真 | 其他技能：ARM、FPGA、linux操作系统编程|
 |个人爱好：参加深圳博览中心、各大路演、沙龙等活动|生活态度：热爱技术、热爱丰富多彩的生活 |才艺：弹奏钢琴、电子琴；打网球；长跑 |
 |github博客网址：wutiantian.github.io|码云博客网址：wutiantian52.gitee.io|个人邮箱wutiantian52@outlook.com|
-
+|B 站，昵称：  wutiantian吴甜甜 |https://space.bilibili.com/105026422|【发布自己技术原创视频】|
 # 我的身份证照片  
 ![引用图片](images/photo.jpg)
 
