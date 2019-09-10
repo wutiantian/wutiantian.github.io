@@ -153,6 +153,7 @@ https://www.pyimagesearch.com/  国外的opencv教学网站，有简易答题卡
 
 # 环境搭建
 
+<iframe src="//player.bilibili.com/player.html?aid=67293028&cid=116675176&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 此处，我以 “编译平台 VS2017 + 开源计算机视觉库 openCV4 + 插件 ImageWatch”为例
 
@@ -259,7 +260,7 @@ openCV 自构建的 bin 文件下的 dll 文件直接拷贝，放置到 c :/wind
 
 每次新建工程都要重新配置，其实不用这样麻烦，可以一劳永逸。
 
-(1)新建项目：打开VS，文件->新建->项目->windows 桌面向导（2017改名成这个啦）->空项目。
+(1)新建项目：打开 VS ，文件 -> 新建 -> 项目 -> 空项目。
 
 (2)新建cpp源文件：源文件->添加->新建项->C++文件->添加
 
