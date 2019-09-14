@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Machine Learning_AndrewNg_Notes"
+title:  "Machine_Learning_AndrewNg_Notes"
 date:   2019-07-27 20:52:25 +0800
 ---
 
@@ -87,7 +87,7 @@ date:   2019-07-27 20:52:25 +0800
 
    视频中举了癌症肿瘤这个例子，针对诊断结果，分别分类为良性或恶性。还例如垃圾邮件分类问题，也同样属于监督学习中的分类问题。
 
-   ![](images/Machine Learning_AndrewNg_Notes/1.3.2.png)
+   ![](images/Machine_Learning_AndrewNg_Notes/1.3.2.png)
 
 视频中提到**支持向量机**这个算法，旨在解决当特征量很大的时候(特征即如癌症例子中的肿块大小，颜色，气味等各种特征)，计算机内存一定会不够用的情况。**支持向量机能让计算机处理无限多个特征。**
 
@@ -112,7 +112,7 @@ date:   2019-07-27 20:52:25 +0800
 
 **鸡尾酒问题**
 
-![](images/Machine Learning_AndrewNg_Notes/1.4.png)
+![](images/Machine_Learning_AndrewNg_Notes/1.4.png)
 
 
 
@@ -150,7 +150,7 @@ date:   2019-07-27 20:52:25 +0800
 
 2. **问题解决模型**
 
-![](images/Machine Learning_AndrewNg_Notes/2.1.2.png)
+![](images/Machine_Learning_AndrewNg_Notes/2.1.2.png)
 
 
 
@@ -188,7 +188,7 @@ $h_\theta(x)=\theta_0+\theta_1x$，为解决房价问题的一种可行表达式
 
 
 
-![](images/Machine Learning_AndrewNg_Notes/2.2.png)
+![](images/Machine_Learning_AndrewNg_Notes/2.2.png)
 
 上图展示了当 $\theta$ 取不同值时，$h_\theta\left(x\right)$ 对数据集的拟合情况，蓝色虚线部分代表**建模误差**（预测结果与实际结果之间的误差），我们的目标就是最小化所有误差之和。
 
@@ -213,7 +213,7 @@ $$J(\theta_0,\theta_1)=\dfrac{1}{2m}\displaystyle\sum_{i=1}^m\left(\hat{y}_{i}-y
 
 为了直观理解代价函数到底是在做什么，先假设 $\theta_1 = 0$，并假设训练集有三个数据，分别为$\left(1, 1\right), \left(2, 2\right), \left(3, 3\right)$，这样在平面坐标系中绘制出 $h_\theta\left(x\right)$ ，并分析 $J\left(\theta_0, \theta_1\right)​$ 的变化。
 
-![](images/Machine Learning_AndrewNg_Notes/2.3.png)
+![](images/Machine_Learning_AndrewNg_Notes/2.3.png)
 
 右图 $J\left(\theta_0, \theta_1\right)$ 随着 $\theta_1$ 的变化而变化，可见**当 $\theta_1 = 1$ 时，$J\left(\theta_0, \theta_1 \right) = 0$，取得最小值，**对应于左图青色直线，即函数 $h$ 拟合程度最好的情况。
 
@@ -224,24 +224,24 @@ $$J(\theta_0,\theta_1)=\dfrac{1}{2m}\displaystyle\sum_{i=1}^m\left(\hat{y}_{i}-y
 给定数据集：
 
 
-![](images/Machine Learning_AndrewNg_Notes/2.4.1.png)
+![](images/Machine_Learning_AndrewNg_Notes/2.4.1.png)
 
 参数在 $\theta_0$ 不恒为 $0$ 时代价函数 $J\left(\theta\right)$ 关于 $\theta_0, \theta_1$ 的3-D图像，图像中的高度为代价函数的值。
 
 
-![](images/Machine Learning_AndrewNg_Notes/2.4.2.png)
+![](images/Machine_Learning_AndrewNg_Notes/2.4.2.png)
 
 由于3-D图形不便于标注，所以将3-D图形转换为**轮廓图(contour plot)**，下面用轮廓图（下图中的右图）来作直观理解，其中相同颜色的一个圈代表着同一高度（同一 $J\left(\theta\right)$ 值）。
 
 $\theta_0 = 360, \theta_1 =0$ 时：
 
 
-![](images/Machine Learning_AndrewNg_Notes/2.4.3.png)
+![](images/Machine_Learning_AndrewNg_Notes/2.4.3.png)
 
 大概在 $\theta_0 = 0.12, \theta_1 =250$ 时：
 
 
-![](images/Machine Learning_AndrewNg_Notes/2.4.4.png)
+![](images/Machine_Learning_AndrewNg_Notes/2.4.4.png)
 
 上图中最中心的点（红点），近乎为图像中的最低点，也即代价函数的最小值，此时对应 $h_\theta\left(x\right)$ 对数据的拟合情况如左图所示，嗯，一看就拟合的很不错，预测应该比较精准啦。
 
@@ -253,7 +253,7 @@ $\theta_0 = 360, \theta_1 =0$ 时：
 
 下图根据不同的起始点，产生了两个不同的局部最小值。
 
-![](images/Machine Learning_AndrewNg_Notes/2.5.1.png)
+![](images/Machine_Learning_AndrewNg_Notes/2.5.1.png)
 
 视频中举了下山的例子，即我们在山顶上的某个位置，为了下山，就不断地看一下周围**下一步往哪走**下山比较快，然后就**迈出那一步**，一直重复，直到我们到达山下的某一处**陆地**。
 
@@ -273,7 +273,7 @@ ${{\theta }_{j}}:={{\theta }_{j}}-\alpha \frac{\partial }{\partial {{\theta }_{j
 
 公式中，学习速率决定了参数值变化的速率即”**走多少距离**“，而偏导这部分决定了下降的方向即”**下一步往哪里**“走（当然实际上的走多少距离是由偏导值给出的，学习速率起到调整后决定的作用），收敛处的局部最小值又叫做极小值，即”**陆地**“。
 
-![](images/Machine Learning_AndrewNg_Notes/2.5.2.png)
+![](images/Machine_Learning_AndrewNg_Notes/2.5.2.png)
 
 注意，在计算时要**批量更新 $\theta$ 值**，即如上图中的左图所示，否则结果上会有所出入，原因不做细究。
 
@@ -282,7 +282,7 @@ ${{\theta }_{j}}:={{\theta }_{j}}-\alpha \frac{\partial }{\partial {{\theta }_{j
 该节探讨 $\theta_1$ 的梯度下降更新过程，即 $\theta_1 := \theta_1 - \alpha\frac{d}{d\theta_1}J\left(\theta_1\right)$，此处为了数学定义上的精确性，用的是 $\frac{d}{d\theta_1}J\left(\theta_1\right)$，如果不熟悉微积分学，就把它视作之前的 $\frac{\partial}{\partial\theta}$ 即可。
 
 
-![](images/Machine Learning_AndrewNg_Notes/2.6.1.png)
+![](images/Machine_Learning_AndrewNg_Notes/2.6.1.png)
 
 把红点定为初始点，切于初始点的红色直线的斜率，表示了函数 $J\left(\theta\right)$ 在初始点处有**正斜率**，也就是说它有**正导数**，则根据梯度下降公式 ，${{\theta }_{j}}:={{\theta }_{j}}-\alpha \frac{\partial }{\partial {{\theta }_{j}}}J\left( \theta_0, \theta_1  \right)$ 右边的结果是一个正值，即 $\theta_1$ 会**向左边移动**。这样不断重复，直到收敛（达到局部最小值，即斜率为0）。
 
@@ -296,13 +296,13 @@ ${{\theta }_{j}}:={{\theta }_{j}}-\alpha \frac{\partial }{\partial {{\theta }_{j
 
 - 学习速率过小图示：
 
-  ![](images/Machine Learning_AndrewNg_Notes/2.6.2.png)
+  ![](images/Machine_Learning_AndrewNg_Notes/2.6.2.png)
 
   收敛的太慢，需要更多次的迭代。
 
 - 学习速率过大图示：
 
-  ![](images/Machine Learning_AndrewNg_Notes/2.6.3.png)
+  ![](images/Machine_Learning_AndrewNg_Notes/2.6.3.png)
 
 
   可能越过最低点，甚至导致无法收敛。
@@ -311,7 +311,7 @@ ${{\theta }_{j}}:={{\theta }_{j}}-\alpha \frac{\partial }{\partial {{\theta }_{j
 
 如图，品红色点为初始点，代价函数随着迭代的进行，变化的幅度越来越小。
 
-![](images/Machine Learning_AndrewNg_Notes/2.6.4.png)
+![](images/Machine_Learning_AndrewNg_Notes/2.6.4.png)
 
 
 **最后，梯度下降不止可以用于线性回归中的代价函数，还通用于最小化其他的代价函数。**
