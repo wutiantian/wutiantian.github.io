@@ -1,4 +1,9 @@
-images/Machine Learning_AndrewNg_Notes/
+---
+layout: post
+title:  "Machine Learning_AndrewNg_Notes"
+date:   2019-07-27 20:52:25 +0800
+---
+
 
 [TOC]
 
