@@ -13,15 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-email: wutiantian52@outlook.com
+email: 1295419136@qq.com
 description: >- # this means to ignore newlines until "baseurl:"
-  吴甜甜的个人博客网站。欢迎发送邮件技术交流！
+  DK的个人博客网站。欢迎发送邮件技术交流！
 baseurl: "" 
 #注意此处最好为空引用，王顶老师提示我否则将导致网址的重叠。例如加了url一样的内容就会造成两遍重复url地址造成异常。
-url: "wutiantian.github.io" 
-title: 吴甜甜的个人博客
-github_username:  wutiantian
-host : 192.168.132.129 
+url: "https://darking.com.cn/" 
+title: DK的个人博客
+github_username:  DarkingForUnity
+host : 
 permalink: none
 # Build settings
 markdown: kramdown
